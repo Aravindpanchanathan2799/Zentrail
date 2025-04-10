@@ -191,7 +191,7 @@ const SignUp: React.FC = () => {
                   id="firstName"
                   type="text"
                   name="firstName"
-                  placeholder="Enter your first name"
+                  placeholder="First Name"
                   value={formData.firstName}
                   onChange={handleChange}
                   disabled={isLoading}
@@ -212,7 +212,7 @@ const SignUp: React.FC = () => {
                   id="lastName"
                   type="text"
                   name="lastName"
-                  placeholder="Enter your last name"
+                  placeholder="Last Name"
                   value={formData.lastName}
                   onChange={handleChange}
                   disabled={isLoading}

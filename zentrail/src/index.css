@@ -1,8 +1,4 @@
-@import '@fontsource/poppins/400.css';
-@import '@fontsource/poppins/500.css';
-@import '@fontsource/poppins/600.css';
-@import '@fontsource/poppins/700.css';
-@import '@fontsource/playfair-display/700.css';
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital@0;1&family=Marcellus&family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600;700&family=Tenor+Sans&display=swap');
 
 @tailwind base;
 @tailwind components;

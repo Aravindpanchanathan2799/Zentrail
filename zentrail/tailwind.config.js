@@ -23,6 +23,9 @@ export default {
       fontFamily: {
         'sans': ['Poppins', 'ui-sans-serif', 'system-ui'],
         'display': ['Playfair Display', 'ui-serif', 'Georgia'],
+        'cinzel': ['Cinzel', 'serif'],
+        'cormorant': ['Cormorant Garamond', 'serif'],
+        'tenor': ['Tenor Sans', 'sans-serif']
       },
     },
   },
