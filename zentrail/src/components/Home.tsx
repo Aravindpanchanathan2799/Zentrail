@@ -252,6 +252,15 @@ const Home: React.FC = () => {
           </>
         )}
       </div>
+
+      {/* Debug info - only show in development */}
+      {process.env.NODE_ENV === 'development' && (
+        <div className="absolute bottom-4 left-4 text-white text-sm">
+          <pre>
+            {JSON.stringify({ user, userStats, loading, error }, null, 2)}
+          </pre>
+        </div>
+      )}
     </div>
   );
 };
